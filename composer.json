@@ -1,0 +1,21 @@
+{
+    "name": "ezimuel/continuousphp",
+    "description": "Testing the continuousphp.com tech",
+    "type": "application",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.5",
+        "zendframework/zendframework": "~2.5"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "2.*",
+        "phpunit/phpunit": "~4.6",
+        "phpbench/phpbench": "^0.10.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ContinuousPHP\\": "src/",
+            "ContinuousPHPTest\\": "test/"
+        }
+    }
+}
